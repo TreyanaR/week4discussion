@@ -40,3 +40,28 @@ body{
     margin-bottom: 10px;
     text-align: center;
  }
+
+ .gallery{
+    display:grid;
+    grid-template-columns: 250px 250px;
+    border: 2px solid #000;
+    width:90%;
+    margin: 0 auto;
+    align-items: stretch; /* up and down*/
+    justify-content: center; /*left and right*/
+    justify-items: center;
+ }
+
+ .gallery img{
+    width: 85%;
+    border: 10px dashed green
+ }
+
+ .gallery img:last-child{
+    grid-column: 1 / -1;
+    border: 10px solid #000
+ }
+
+
+
+
